@@ -1,88 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
-  <diagram name="Page-1" id="BvijQytbf7S60ULZOayk">
+  <diagram name="Page-1" id="Vx_UUNtRKf8YQpBdhRtP">
     <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Début" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="8" y="8" width="58" height="58" as="geometry" />
+        <mxCell id="2" value="Début" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="8" y="58" width="73" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Étape 1" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="116" y="13" width="84" height="49" as="geometry" />
+        <mxCell id="3" value="Initialisation des variables" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="131" y="58" width="218" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Étape 2" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="250" y="13" width="84" height="49" as="geometry" />
+        <mxCell id="4" value="Condition de sélection" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="399" y="58" width="191" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Étape 3" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="385" y="13" width="84" height="49" as="geometry" />
+        <mxCell id="5" value="Traitement 1" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="679" y="8" width="123" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Étape 4" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="519" y="13" width="85" height="49" as="geometry" />
+        <mxCell id="6" value="Traitement 2" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="679" y="107" width="123" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Étape 5" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="654" y="13" width="84" height="49" as="geometry" />
+        <mxCell id="7" value="Vérification" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="852" y="8" width="115" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="Étape 6" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="788" y="13" width="85" height="49" as="geometry" />
+        <mxCell id="8" value="Fin" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="883" y="107" width="52" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="Étape 7" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="923" y="13" width="85" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="10" value="Étape 8" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="1057" y="13" width="85" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="11" value="Étape 9" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="1192" y="13" width="84" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="12" value="Fin" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1326" y="19" width="37" height="37" as="geometry" />
-        </mxCell>
-        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.49;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;" edge="1" parent="1" source="2" target="3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;" edge="1" parent="1" source="3" target="4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.01;exitY=0.49;entryX=-0.01;entryY=0.49;" edge="1" parent="1" source="4" target="5">
+        <mxCell id="11" value="Vrai" style="curved=1;startArrow=none;endArrow=block;exitX=0.86;exitY=-0.01;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="634" y="33" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Faux" style="curved=1;startArrow=none;endArrow=block;exitX=0.86;exitY=0.99;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="634" y="132" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="5" target="7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;" edge="1" parent="1" source="5" target="6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.49;entryX=-0.01;entryY=0.49;" edge="1" parent="1" source="6" target="7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;" edge="1" parent="1" source="7" target="8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.49;entryX=-0.01;entryY=0.49;" edge="1" parent="1" source="8" target="9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.49;entryX=0;entryY=0.49;" edge="1" parent="1" source="9" target="10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;" edge="1" parent="1" source="10" target="11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0.01;entryY=0.49;" edge="1" parent="1" source="11" target="12">
+        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.01;entryY=0.5;" edge="1" parent="1" source="6" target="8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
